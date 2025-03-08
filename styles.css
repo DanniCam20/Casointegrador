@@ -1,0 +1,237 @@
+  
+ 
+ 
+ body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1rem;  /* Tamaño relativo al tamaño base del navegador */
+    width: 100vw;  /* 100% del ancho de la ventana */
+    height: 100
+    
+   }
+  
+.header{
+
+display: flex;
+background-color: black;
+padding: 0px;
+text-align: center;
+
+
+ }
+ 
+
+
+
+.title{
+
+font-family: 'Bebas Neue', sans-serif;
+color: rgb(255, 255, 255);
+margin: 10px;
+padding: 10px;
+text-align: center;
+margin-left: 210px;
+font-size: 35px;
+
+
+
+}
+
+.container{
+
+  width: 500%;
+  display: flex;
+  max-width: 300px;
+  
+}
+
+.card {
+
+  padding: 10px;
+  margin: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+  text-align: center;
+  border-radius: 20px !important;
+  overflow: hidden !important; /* Asegura que el contenido respete los bordes */
+  width: 400px;
+
+}
+
+
+
+
+.card:hover{
+
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-10px); 
+ 
+
+}
+.card figure {
+
+  width: 100%;
+  height: 250px; /* Aumenta la altura de la imagen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen llene el espacio sin deformarse */
+  border-radius: 10px;
+}
+
+.btn-card{
+
+ background-color: black;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 20px;
+ color: #fff;
+ border-radius: 10px;
+ margin: 2px;
+ box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+ 
+}
+
+
+
+.carousel {
+  max-width: 1500px; /* Ajusta el ancho del carrusel */
+ margin: auto;
+ 
+}
+
+.carousel-inner img {
+  max-height: 500px; /* Ajusta la altura de las imágenes */
+  object-fit: cover; /* Recorta las imágenes si es necesario */
+  border-radius: 50px
+}
+
+.principal{
+
+  font-size: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 28%
+  text-align: center; /* Centra el texto horizontalmente */
+  width: 80%; /* Ancho adaptable */
+  margin: 0 auto; /* Centra horizontalmente */
+  display: flex; 
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente si tiene altura */
+  
+}
+
+.contenido{
+
+  justify-items: center;
+  font-size: 20px;
+  
+}
+
+
+
+.frase{
+
+
+  text-align: center; 
+  font-size: 1.2rem; 
+  width: 80%; 
+  margin: 0 auto; /* Centra horizontalmente */
+  display: flex; 
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente si tiene altura */
+  font-size: 25px;
+
+  
+}
+
+.reloj{
+
+  background-color: black;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 20px;
+ color: #fff;
+ border-radius: 10px;
+ margin: 30px;
+ box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+ padding: 30px;
+}
+
+
+.volver {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
+  border-radius: 10px;
+  padding: 12px 24px;
+  margin: 30px auto; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; /
+  width: fit-content; /
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 1300px;
+}
+
+
+.volver:hover {
+  background-color: white; /* Cambia a blanco */
+  color: black; /* Texto negro */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Aumenta la sombra */
+  transform: translateY(-3px); /* Efecto de elevación */
+}
+
+.logo{
+
+  height: 60px;}
+
+  .footer{
+
+    background-color: black;
+    padding: 30px;
+    
+    
+  }
+
+  .cfooter{
+
+  color: #fff;
+  display: flex;
+
+  margin-left: 570px;
+
+  }
+
+  .modal-body{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+  }
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

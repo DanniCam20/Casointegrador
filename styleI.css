@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+.titulo {
+    font-size: 3rem;
+    margin-top: 20vh;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.titulo{
+
+    font-size: 67px;
+    background-color: black; opacity: 80%;
+    border-radius: 40px;
+    padding: 15px;
+    margin-top: 0%;
+
+}
+
+.frase{
+    
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+                        
+}
+
+.logo{
+
+    height: 300px;
+
+}
+.logo2{
+
+
+    height: 50px;
+}
+.btn-outline-dark{
+
+    font-size: 30px;
+    color: rgb(101, 114, 126);
+}
+
+.modal-title{
+    color: #0f2027;
+}
+
+.modal-body{
+
+    color: #0f2027;
+}
+
+.btn-danger{
+
+    background-color: black;
+}
+
+.navbar-brand{
+
+    font-size: 30px;
+}
